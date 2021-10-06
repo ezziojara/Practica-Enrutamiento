@@ -43,7 +43,7 @@ function App() {
           <Route exact path="/:palabra">
             <EnviarEstilo />
           </Route>
-          <Route exact path="/:palabra/:fondo/:colorLetra">
+          <Route exact path="/:palabra/:colorLetra/:fondo">
             <EnviarEstilo />
           </Route>
           
